@@ -15,4 +15,16 @@ function draw() {
   ellipse( mouseX , mouseY, 10 , 10 );
   fill( 255 , 255 , 0 );
   noStroke();
+  
+  ellipse( mouseX , mouseY , 10 , 10);
+  fill( 0 , 255 , 0 );
+  noStroke();
+  
+  ellipse( mouseX , mouseY , 10 , 10);
+  fill( 0 , 0 , 255 );
+  noStroke();
+  
+  ellipse( mouseX , mouseY , 10 , 10 );
+  fill( 255 , 0 , 255 );
+  noStroke();
 }
